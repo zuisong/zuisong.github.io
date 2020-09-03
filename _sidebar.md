@@ -1,3 +1,3 @@
 * [Home](/)
-  * [百度](https://baidu.com)
-* [plantuml](/docs/plantuml.md)
+  * [plantuml](/docs/plantuml.md)
+* [地址导航](/docs/地址导航.md)
