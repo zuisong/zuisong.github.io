@@ -19,6 +19,3 @@ ca ->> rs : Api call with Access Token
 rs -->> as : validate Token
 rs -->> ca : Api Response if token valid
 ```
-
-
-

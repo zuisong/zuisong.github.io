@@ -1,7 +1,5 @@
 # Mermaid
 
-
-
 ```mermaid
 sequenceDiagram
 autonumber
@@ -58,7 +56,7 @@ pie title What Voldemort doesn't have?
 
 ```mermaid
 sequenceDiagram
-		autonumber
+  autonumber
     Alice ->> Bob: Hello Bob, how are you?
     Bob-->>John: How about you John?
     Bob--x Alice: I am good thanks!
@@ -68,4 +66,3 @@ sequenceDiagram
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
 ```
-
