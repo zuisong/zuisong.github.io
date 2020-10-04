@@ -14,7 +14,7 @@
   <meta http-equiv="expires" content="0">
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
       coverpage: true,
       auto2top: true,
       autoHeader: true,
-      
+
       mergeNavbar: true,
       onlyCover: false,
 
@@ -57,6 +57,10 @@
           '/zh-cn/': '复制',
           '/': '复制'
         }
+      },
+      toc: {
+        tocMaxLevel: 5,
+        target: 'h2, h3, h4, h5, h6'
       },
     }
   </script>
@@ -89,7 +93,10 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-kotlin.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-rust.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-groovy.min.js"></script>
 
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-slides/dist/docsify-slides.min.js"></script>
   </script>
 
 </body>
