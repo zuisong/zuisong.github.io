@@ -1,4 +1,5 @@
 ```plantuml
+@startuml
 autonumber
 participant  "User \n Agent" as ua
 ' The only difference between actor
@@ -17,9 +18,11 @@ as --> ca : Access Token
 ca --> rs : Api call with Access Token
 rs --> as : validate Token
 rs --> ca : Api Response if token valid
+@enduml
 ```
 ---
 ```plantuml
+@startuml
 autonumber
 
 actor User
@@ -104,5 +107,5 @@ note right : GET /
 
 User <- Client : Response Client Sign In
 deactivate Client
-
+@enduml
 ```
