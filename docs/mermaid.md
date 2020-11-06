@@ -91,6 +91,7 @@ D{Hello}
 
 
 ```plantuml
+@startuml
 autonumber
 participant  业务方 as biz
 
@@ -121,4 +122,5 @@ else 短信发送失败
 
 disp --> cloud : 重试
 end
+@enduml
 ```
