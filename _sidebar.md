@@ -1,5 +1,5 @@
 * [Home](/)
-  * [Docsify Kroki Demo](/docs/kroki/)
+  * [Docsify Kroki Demo](/docs/docsify-kroki.md)
   * [Spock](/docs/spock.md)
   * [Oauth2](/docs/oauth2.md)
 * [地址导航](/docs/地址导航.md)
