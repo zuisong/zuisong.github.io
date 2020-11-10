@@ -36,11 +36,6 @@
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md', // See #301
       },
-
-      // 启用 plantuml
-      plantuml: {
-        skin: 'classic',
-      },
       // 启用相对路径
       relativePath: true,
       //docsify-copy-code
@@ -72,17 +67,12 @@
   <!-- 图片缩放 - Zoom image -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
-  <!-- plantuml -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
-
+  <script src="//unpkg.com/docsify-kroki"></script>
 
   <!-- 英文字母和中文之间自动加空格 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
 
-  <!-- mermaid -->
-  <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-mermaid/dist/docsify-mermaid.js"></script>
-  <script> mermaid.initialize({ startOnLoad: true });</script>
+ 
 
   <!-- 让markdown正常变量 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-mustache"></script>
