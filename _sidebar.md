@@ -2,4 +2,5 @@
   * [Docsify Kroki Demo](/docs/docsify-kroki.md)
   * [Spock](/docs/spock.md)
   * [Oauth2](/docs/oauth2.md)
+  * [gitlab-ci](/docs/gitlab-ci.md)
 * [地址导航](/docs/地址导航.md)
